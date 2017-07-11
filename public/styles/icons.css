@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'portfolio-icomoon';
-  src:  url('fonts/portfolio-icomoon.eot?fx3qav');
-  src:  url('fonts/portfolio-icomoon.eot?fx3qav#iefix') format('embedded-opentype'),
-    url('fonts/portfolio-icomoon.ttf?fx3qav') format('truetype'),
-    url('fonts/portfolio-icomoon.woff?fx3qav') format('woff'),
-    url('fonts/portfolio-icomoon.svg?fx3qav#portfolio-icomoon') format('svg');
+  font-family: 'abyss-icomoon';
+  src:  url('fonts/abyss-icomoon.eot?kusex3');
+  src:  url('fonts/abyss-icomoon.eot?kusex3#iefix') format('embedded-opentype'),
+    url('fonts/abyss-icomoon.ttf?kusex3') format('truetype'),
+    url('fonts/abyss-icomoon.woff?kusex3') format('woff'),
+    url('fonts/abyss-icomoon.svg?kusex3#abyss-icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'portfolio-icomoon' !important;
+  font-family: 'abyss-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
