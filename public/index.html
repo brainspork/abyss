@@ -12,7 +12,7 @@
       <img src="http://placehold.it/150x75">
       <h1>Abyss</h1>
       <div class="icon-menu"></div>
-      <nav>
+      <nav id="main-nav">
         <ul>
           <li>Home</li>
           <li>About</li>
@@ -25,6 +25,7 @@
         <ul>
           <li>Inventory</li>
           <li>Stats</li>
+          <li>Map</li>
         </ul>
       </section>
 
@@ -37,6 +38,7 @@
       </section>
 
       <section id="map" class="tab">
+        <h2>Map</h2>
         <!--room map goes here-->
       </section>
 
@@ -45,12 +47,14 @@
       </section>
 
       <section id="inventory" class="tab">
+        <h2>Inventory</h2>
         <ul>
           <!--Inventory goes here-->
         </ul>
       </section>
 
       <section id="stats" class="tab">
+        <h2>Stats</h2>
         <ul>
           <!--player stats go here-->
         </ul>
@@ -66,5 +70,6 @@
     </footer>
     <script src="vendor/scripts/jquery.js"></script>
     <script src="vendor/scripts/handlebars.js"></script>
+    <script src="scripts/controller/navController.js"></script>
   </body>
 </html>
